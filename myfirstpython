@@ -1,0 +1,72 @@
+
+
+
+
+x = 'Deetha Bangara'
+print x
+
+
+
+Deetha Bangara
+In [5]:
+
+
+x = [1,2,3,4]
+print type(x)
+
+
+
+<type 'list'>
+In [12]:
+
+
+a =1
+b =2
+print 1+a+b
+
+
+
+4
+In [16]:
+
+
+mylist = [3.44, 44.04, 55,12,66,23]
+print mylist
+​
+mylist1 =[]
+mylist1.append(int(mylist[0]))
+mylist1.append(int(mylist[1]))
+mylist1.append(int(mylist[2]))
+mylist1.append(int(mylist[3]))
+print mylist1
+​
+
+
+
+[3.44, 44.04, 55, 12, 66, 23]
+[3, 44, 55, 12]
+In [20]:
+
+
+mylist = [3.44, 44.04, 55.12, 66.23]
+mylist1=[]
+for each_element in mylist:
+    mylist1.append(int (each_element))
+print mylist1
+​
+​
+
+
+
+[3, 44, 55, 66]
+In [21]:
+
+
+mylist = [3.44, 44.04, 55.12, 66.23]
+mylist3 = [int (each_element) for each_element in mylist]
+print mylist3
+​
+
+
+
+[3, 44, 55, 66]
